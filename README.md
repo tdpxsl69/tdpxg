@@ -2,6 +2,13 @@
 
 A Python tool to fetch and analyze Instagram profile information.
 
+Prerequisites:
+
+    Python installed on the system
+    Git installed on the system
+    Internet connection to download dependencies
+    
+    
 ## Features
 
 - Fetches Instagram profile information such as account status, username, full name, followers, following, posts, bio,  profile picture link, and profile link.
@@ -11,15 +18,19 @@ A Python tool to fetch and analyze Instagram profile information.
 
 ## Usage
 
-1. Install the dependencies listed in the `requirements.txt` file using `pip`:		pip install -r requirements.txt
+Step 1: Clone the Repository
 
+    git clone https://github.com/tdpxsl69/tdpxg.git
 
-2. Run the `tdpxg.py` script using Python:		python tdpxg.py
+Step 2: Install Dependencies
 
+    pip install -r requirements.txt
 
-3. Choose an option from the menu:
-- Option 1: Get Instagram profile information by entering the username.
-- Option 2: Exit the tool.
+Step 3: Run the Script
+
+    python tdpxg.py
+
+Note: The profile information will be saved to a text file named username_info.txt on the user's desktop.
 
 ## License
 
@@ -28,5 +39,4 @@ This tool is released under the LICENSE which is provided by tdpxsl69 (tdpxsl69@
 ## Author
 
 - [tdpxsl69](https://github.com/tdpxsl69)
-- Email: tdpxsl69@gmail.com
-
+- tdpxsl69@gmail.com
